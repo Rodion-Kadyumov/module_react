@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  background: #161516;
+}
+
+.footer__price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 290px;
+  color: #FFFFFF;
+}
+
+.footer__btn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
+  width: 200px;
+  height: 42px;
+  margin-left: 700px;
+  background: #D58C51;
+}

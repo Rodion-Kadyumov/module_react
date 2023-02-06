@@ -1,0 +1,107 @@
+.card {
+  cursor: pointer;
+  border: 1px solid #D58C51;
+}
+
+.card__preview {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.card__description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  height: 15px;
+  margin-left: 15px;
+  margin-bottom: 70px;
+}
+
+.card__price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  margin-left: 15px;
+}
+
+.card__price-btn {
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  color: #FFFFFF;
+  padding-top: 2px;
+  margin-left: 130px;
+  height: 25px;
+  width: 25px;
+}
+
+.card__price-btn:hover {
+  background-color: #D58C51;
+  border-color: #D58C51;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choice-image {
+  width: 30%;
+  padding-bottom: 30px;
+  margin-left: 0px;
+  margin-right: 90px;
+}
+
+.choice-title {
+  width: 310px;
+  margin-right: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.choice-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #D58C51;
+}
+
+.choice-blok__btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  color: #FFFFFF;
+}
+
+.choice-blok__btn:hover {
+  background-color: #D58C51;
+  border-color: #D58C51;
+}
+
+
+.card:hover{ 
+  color: #D58C51;
+}

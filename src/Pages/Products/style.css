@@ -1,0 +1,27 @@
+.main {
+  font-family: 'Montserrat';
+  background: #161516;
+  color: white;
+}
+
+.container {
+  width: 1500px;
+  padding-bottom: 80px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: calc(100vh - 150px);
+  overflow-x: auto;
+}
+
+.menu::-webkit-scrollbar {
+  width: 0;
+}
+
+.menu .card {
+  width: 312px;
+  margin-bottom: 35px;
+}

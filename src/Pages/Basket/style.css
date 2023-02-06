@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  background-color: #161516;
+}
+.all-basket {
+  width: 800px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: calc(100vh - 150px);
+  overflow-x: auto;
+}
+
+.all-basket::-webkit-scrollbar {
+  width: 0;
+}
